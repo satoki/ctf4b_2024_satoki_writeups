@@ -15,5 +15,5 @@ SECCON Beginners CTF 2024 作問者の一人 [Satoki](https://twitter.com/satoki
 
 MiscではPythonの機能を使った謎ひらめき問題、Pwnableでは少し面倒なROP&Shellcode問題を作りました。  
 Pwnable歴が浅いため面白い問題がよく分からずこうなりました。  
-Webに関しては基本の脆弱性を調べる問題と、XS-Leaksといったイマドキの内容を扱いました。  
+Webに関しては基本の脆弱性+ひらめきの問題と、XS-Leaksといったイマドキの問題を扱いました。  
 この度はご参加頂き有り難うございました。  
