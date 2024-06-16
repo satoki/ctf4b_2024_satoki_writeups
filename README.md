@@ -6,12 +6,12 @@ SECCON Beginners CTF 2024 作問者の一人 [Satoki](https://twitter.com/satoki
 2024で私が作った問題は以下になります。  
 
 - Misc
-  - [commentator](misc/commentator) [X Solves]  
+  - [commentator](misc/commentator) [75 Solves]  
 - Pwnable
-  - [gachi-rop](pwnable/gachi-rop) [X Solves]  
+  - [gachi-rop](pwnable/gachi-rop) [34 Solves]  
 - Web
-  - [htmls](web/htmls) [X Solves]  
-  - [ssrforlfi](web/ssrforlfi) [X Solves]  
+  - [htmls](web/htmls) [9 Solves]  
+  - [ssrforlfi](web/ssrforlfi) [76 Solves]  
 
 MiscではPythonの機能を使った謎ひらめき問題、Pwnableでは少し面倒なROP&Shellcode問題を作りました。  
 Pwnable歴が浅いため面白い問題がよく分からずこうなりました。  

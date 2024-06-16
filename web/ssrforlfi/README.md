@@ -89,7 +89,7 @@ if __name__ == "__main__":
 RCEはクエリに指定できる文字の制限があるため厳しく、SSRFでファイルシステムにアクセスすることは難易度が高い。  
 LFIでファイルを読み出す方針が最も簡単そうだ。  
 そのためには`os.path.exists(path)`をバイパスする必要がある。  
-Pythonでファイルが存在しないと判定され、curlでファイルが読み取れるパスの記法はないだろうか？
+Pythonでファイルが存在しないと判定され、curlでファイルが読み取れるパスの記法はないだろうか？  
 「file scheme」のようにGoogle検索し、[RFC 8089](https://datatracker.ietf.org/doc/html/rfc8089)などを読むと`file://hostname/path/to/file`でもアクセスできることがわかる(Wikipediaでもよい笑)。  
 以下のように試してみる。  
 ```bash
